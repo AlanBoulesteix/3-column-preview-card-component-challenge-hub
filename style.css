@@ -1,0 +1,231 @@
+:root{
+
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --verydark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75); /* Paragraphs*/
+    --very-light-gray: hsl(0, 0%, 95%); /*background, headings, buttons */
+    
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+        font-size: 15px;
+        background-color: var(--very-light-gray);
+        
+    }
+    
+    .container {
+        height: 550px;
+        width: 100%;
+    
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    
+        
+    }
+    
+    .cards_component {
+        display: flex;
+        flex-direction: row;
+        
+    
+        height: 500px;
+        width: 80%;
+    
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    
+    .card div {
+        
+        width: 70%;
+        margin-left: 3em;
+    
+    }
+    
+    .img_container{
+    
+        margin-top: 3em;
+    }
+    
+    .title_component {
+       height: 15%;
+    }
+    
+    .button_component {
+    
+        margin-top: 5em;
+        height: 15%;
+    }
+    
+    button {
+        border: none;
+        border-radius: 20px;
+    
+        height: 3em;
+        width: 50%;
+    
+        background-color: var(--very-light-gray);
+    
+    }
+    
+    button:hover {
+        background-color: lightgray;
+    }
+    
+    #sedans {
+        background-color: var(--bright-orange);
+    }
+    #sedans button {
+        color: var(--bright-orange);
+    }
+    
+    #suvs{
+        background-color: var(--dark-cyan);
+    }
+    
+    #suvs button {
+        color: var(--dark-cyan);
+    }
+    
+    #luxury{
+        background-color: var(--verydark-cyan);
+    }
+    
+    #luxury button {
+        color: var(--verydark-cyan);
+    }
+    
+    p {
+        color: var(--transparent-white);
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 700;
+    
+        letter-spacing: 1px;
+        line-height: 1.5em;
+    }
+    
+    h2{
+        
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 400;
+        color: var(--very-light-gray);
+        text-transform: uppercase;
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    body {
+        font-size: 15px;
+        background-color: var(--very-light-gray);
+    }
+    
+    .container {
+        height: 1500px;
+        width: 100%;
+    
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cards_component {
+        display: flex;
+        flex-direction: column;
+        
+        width: 80%;
+        height: 100%;
+
+    
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .card{
+        height: 34%;
+    }
+    
+    .card div {
+        
+        width: 70%;
+        margin-left: 3em;
+    }
+    
+    .img_container{
+    
+        margin-top: 3em;
+    }
+    
+    .title_component {
+       height: 15%;
+    }
+    
+    .button_component {
+    
+        margin-top: 5em;
+        height: 15%;
+    }
+    
+    button {
+        border: none;
+        border-radius: 20px;
+    
+        height: 3em;
+        width: 50%;
+    
+        background-color: var(--very-light-gray);
+    
+    }
+    
+    button:hover {
+        background-color: lightgray;
+    }
+    
+    #sedans {
+        background-color: var(--bright-orange);
+    }
+    #sedans button {
+        color: var(--bright-orange);
+    }
+    
+    #suvs{
+        background-color: var(--dark-cyan);
+    }
+    
+    #suvs button {
+        color: var(--dark-cyan);
+    }
+    
+    #luxury{
+        background-color: var(--verydark-cyan);
+    }
+    
+    #luxury button {
+        color: var(--verydark-cyan);
+    }
+    
+    p {
+        color: var(--transparent-white);
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 700;
+    
+        letter-spacing: 1px;
+        line-height: 1.5em;
+    }
+    
+    h2{
+        
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 400;
+        color: var(--very-light-gray);
+        text-transform: uppercase;
+        font-size: 38px;
+    }
+}
